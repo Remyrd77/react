@@ -34,7 +34,6 @@ export default function Flashcard({ flashcard }) {
             })}
           </div>
         </div>
-        <p>hi</p>
         <div className="back" ref={backEl}><span>{flashcard.answer}</span></div>
       </div>
     </div>
